@@ -55,22 +55,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-img-right {
   border-radius: 0 3px 3px 0;
-  margin: auto;
+  margin: auto auto;
+  object-fit: contain;
+  max-height: 250px;
+  overflow:hidden;
 }
 
 .flex-auto {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
-
-.h-250 { height: auto; }
-@media (min-width: 768px) {
-  .h-md-250 { height: auto; }
-  .card-img-right {
-  max-height: 250px;
-  border-radius: 0 3px 3px 0;
-  margin: auto;
-  }
+.card{
+  overflow: hidden;
 }
 
 .border-top { border-top: 1px solid #e5e5e5; }
