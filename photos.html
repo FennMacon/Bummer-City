@@ -16,6 +16,57 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+
+      .smallImg:hover {
+        opacity:0.85;
+        cursor: pointer;
+      }
+
+      .modalContainer {
+        display:none;
+        position:fixed;
+        left:0;
+        top:0;
+        background-color: rgba(0,0,0,0.8);
+        padding:40px 0;
+        width:100%;
+        height:100%;
+        overflow:auto;
+      }
+
+      .modalImg {
+        display: block;
+        margin: auto;
+        width:auto;
+        max-width: 1000px;
+      }
+
+      .modalText {
+        font-family: arial;
+        color: #999;
+        height:150px;
+        max-width:1000px;
+        margin:0 auto;
+        padding-top:10px;
+        padding-left:15px;
+      }
+
+      .closer {
+        max-width:1000px;
+        margin: 0 auto;
+        text-align:right;
+        color:#999;
+        font-size:30px;
+      }
+
+      .closeSymbol:hover {
+        color:#fff;
+        cursor: pointer;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -56,37 +107,92 @@
           <a class="p-2 text-muted" href="#"></a>
         </nav>
       </div>
+
+
     <main role="main" class="container">
       <div class="row">
-        <div class="col-md-8 blog-main">
+        <div class="col-md-9 blog-main">
           <h3 class="pb-3 mb-4 font-italic border-bottom">
             Photos
           </h3>
 
-          
+          <div class="card-columns">
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/13428559_824505997680235_3812565947838409516_n.jpg?_nc_cat=105&oh=0164ee17e8d485bfb7cb47794257d5b0&oe=5C241A92" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>Little Musket performs at the Bummer City Open Mic with Kathryn McCawley's artwork in back.</small></p>
+              </div>
+            </div>
 
-        <aside class="col-md-4 blog-sidebar">
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/26219588_10155720432505395_3311889723469060114_n.jpg?_nc_cat=103&oh=71d170deadf31d7ef75c1e95147a70a8&oe=5C1A6799" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>C i d e r d o w n about to perform at the second Bummer City Winter Gala</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/15589623_10154802155469414_5809866295414398595_n.jpg?_nc_cat=107&oh=13fc2b67f5cfd2802a334db3ffd0735d&oe=5C5F1FDF" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>Trash Girl performs at the first Bummer City Winter Gala (photo cred: Elise Greenberg)</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/15542169_10154802155274414_3275719362242543218_n.jpg?_nc_cat=102&oh=ba4c650191d8284ef481d616674c3c30&oe=5C1DF820" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>Anna O'Connell and her freakin' choir performing at the first Bummer City Winter Gala (photo cred: Elise Greenberg)</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/12439305_790553711075464_7457276398633956877_n.jpg?_nc_cat=106&oh=4fb2b0f98501cc4b9ccab3c497d09569&oe=5C229719" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>Tiffany's House performs at a Bummer City house show at the Lunch Box</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/11870837_686639718133531_6756185570653013107_n.jpg?_nc_cat=104&oh=c481d59ac758a74cc4d6ae143317c232&oe=5C1B0FFE" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>The Bummer City Open Mic, from the stage area </small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/1381405_10152792849100395_2516430200850157552_n.jpg?_nc_cat=107&oh=dfaca6845cedabf0f4ace04cb0a664c5&oe=5C52D67B" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>Eva Walsh performs at Bane Voice</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/10421371_10152792841510395_8133477942587521173_n.jpg?_nc_cat=111&oh=3711ac4bd45f903c5e057dc0a1c21097&oe=5C502037" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>Calliope of the Future performs at Bane Voice</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/1743568_10152280898485395_1714927828_n.jpg?_nc_cat=102&oh=b6efa679794ec58d9fdc8e7e317a1a05&oe=5C5C25F7" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>Bane Voice #6</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top smallImg" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/11033186_620009341463236_1939262634474861886_n.jpg?_nc_cat=105&oh=4044aeb63c0c037a08cc257ae4356d91&oe=5C1DED5E" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small>The Original Bummer City Historical Society + Cam from Lawn Care </small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="col-md-3 blog-sidebar">
           <div class="p-3 mb-3 bg-light rounded">
             <h4 class="font-italic">About</h4>
             <p class="mb-0">The <em>Bummer City Historical Society & Civic Engagement Coalition</em> is a Boston-based community of DIY artists and organizers trying to develop intentional, inclusive, civically engaged communities throughout the Greater Boston area.</p>
-          </div>
-
-          <div class="p-3">
-            <h4 class="font-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
           </div>
 
           <div class="p-3">
@@ -98,6 +204,12 @@
             </ol>
           </div>
         </aside><!-- /.blog-sidebar -->
+
+        <div class="modalContainer">
+            <img src="" class="modalImg">
+            <h5 class="modalText">somet text</h5>
+        </div>
+
 
       </div><!-- /.row -->
 
@@ -123,6 +235,35 @@
         fg: '#eceeef',
         text: 'Thumbnail'
       });
+    </script>
+    <script>
+      const smallImgs = document.querySelectorAll(".smallImg");
+      const modalContainer = document.querySelector(".modalContainer");
+      const modalImg = document.querySelector(".modalImg");
+      let modalText = document.querySelector(".modalText");
+
+      function showModal(e) {
+        for(let i = 0; i < smallImgs.length; i++) {
+          if (e.target === smallImgs[i]) {
+            modalImg.src = e.target.src;
+            modalText.innerText = e.target.alt;
+            modalContainer.style.display = "block";
+          }
+        }
+      }
+
+      function closeModal() {
+        modalContainer.style.display = "none";
+      }
+
+      function showTarget(e) {
+        console.log(e.target);
+      }
+
+      document.addEventListener("click",showTarget);
+      document.addEventListener("click",showModal);
+      modalContainer.addEventListener("click",closeModal);
+
     </script>
   </body>
 </html>
