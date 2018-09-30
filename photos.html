@@ -239,13 +239,11 @@
       const smallImgs = document.querySelectorAll(".smallImg");
       const modalContainer = document.querySelector(".modalContainer");
       const modalImg = document.querySelector(".modalImg");
-      let modalText = document.querySelector(".modalText");
 
       function showModal(e) {
         for(let i = 0; i < smallImgs.length; i++) {
           if (e.target === smallImgs[i]) {
             modalImg.src = e.target.src;
-            modalText.innerText = e.target.alt;
             modalContainer.style.display = "block";
           }
         }
