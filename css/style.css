@@ -53,11 +53,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .875rem;
 }
 
-.card-img-right {
+.card-img-top {
   border-radius: 0 3px 3px 0;
   margin: auto auto;
-  object-fit: contain;
-  max-height: 250px;
+  object-fit: cover;
+  max-height: 300px;
   overflow:hidden;
 }
 
