@@ -2,7 +2,7 @@
   "name": "bummercityreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bummercityhistoricalsociety.com/",
+  "homepage": "https://fennmacon.github.io/Bummer-City/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.2",
