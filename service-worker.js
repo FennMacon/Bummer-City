@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Bummer-City/precache-manifest.07859c20c746f2ce083d02fec8f2de3f.js"
+  "/io/bummer-city-two/precache-manifest.32d706b8eaa3cddd222ad2254281f733.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Bummer-City/index.html", {
+workbox.routing.registerNavigationRoute("/io/bummer-city-two/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
